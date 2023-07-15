@@ -1,3 +1,4 @@
+import { AddNewStaffForm } from '@/components/AddNewStaffForm'
 import { Notifications } from '@/components/Notifications'
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
 
         <Notifications />
       </section>
+      <AddNewStaffForm />
     </>
   )
 }
